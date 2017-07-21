@@ -1,0 +1,5 @@
+<div>
+  <div class="col-lg-4" col-md-6 col-xs-12 *ngFor="let animes of animeList; let i = index">
+    <a><img src={{animes.image}} (click)="describe(i)"/></a>
+  </div>
+</div>

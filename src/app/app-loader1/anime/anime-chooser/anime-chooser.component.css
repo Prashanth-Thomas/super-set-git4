@@ -1,0 +1,13 @@
+img{
+  height: 75px;
+  width: 125px;
+  opacity: 0.5;
+  margin: 20px 20px 20px 20px;
+}
+
+img:hover{
+  height: 95px;
+  width: 145px;
+  opacity: 1;
+  margin: 10px 10px 10px 10px;
+}
